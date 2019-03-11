@@ -1,45 +1,125 @@
-body, html {
-  height: 100%;
- }
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+.header {
+  margin: 0;
+}
+
+.jumbotron{
+	background-image: url('/assets/img/Breda5.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 0;
+	height: 300px;
+} 
+
+.btn-secondary {
+  background-color:#AA151B; 
+  border-color:#AA151B;
+  color:#F1BF00;
+}
+
+.btn {
+  padding: 0;
+}
+
+.dropdown-toggle {
+ float: right;
+}
+
+.body, .html {
+  height: 100%;
+  padding: 0;
+ }
+ 
 .row {
-  background-color: rgb(218, 41, 28);
-  color: black;
+  background-color: none;
+  color: #424141;
   border: 0;
   }
   
-.parallax {
-  /* The image used */
+  .carousel-caption {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.50);
+  right: 0%;
+  left: 4%;
+  padding-top: 0;
+  padding-bottom: 0;
+  bottom: 5%;
+  width: 92%;
+}
+  
+.head13 {
+  background-color: /*rgb(218, 41, 28);*/ #e9ecef;
+  width: 100%;
+  border: 0;
+  text-align: center;
+  }
+  
+.head24 {
+  background-color: /*rgb(218, 41, 28);*/ #adb5bd;
+  width: 100%;
+  border: 0;
+  text-align: center;
+  }
+
+.content13 {
+  background-color: /*rgb(255, 196, 0);*/ #e9ecef;
+  width: 100%;
+  border: 0;
+  padding: 0;
+  }
+  
+.content24 {
+  background-color: #adb5bd;
+  width: 100%;
+  border: 0;
+  padding: 0;
+}  
+
+.underline {
+  border-bottom: 3px solid;
+}
+
+.bg-lightgray {
+  background-color: #e9ecef;
+}
+
+.bg-darkgray {
+  background-color: #adb5bd;
+}
+
+.col-4 {
+  padding-left: 5px;
+  padding-right: 5px;
+}  
+
+.col-8 {
+  padding-left: 5px;
+  padding-right: 5px;
+}  
+
+.col, .col-12 {
+  padding: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.row-12 {
+  padding: 0;
+}
+
+
+/*.parallax {
+   The image used
   background-image: url("/assets/img/Breda5.jpg");
 
-  /* Set a specific height */
+  /* Set a specific height 
   height: 300px;
   width: 100vw; 
 
-  /* Create the parallax scrolling effect */
-    /* background-attachment: fixed; Not for mobile*/
+  /* Create the parallax scrolling effect 
+    /* background-attachment: fixed; Not for mobile
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.head {
-  background-color: rgb(218, 41, 28);
-  width: 100%;
-  border: 0;
-  text-align: center;
-  }
-
-.content {
-  background-color: rgb(255, 196, 0);
-  width: 100%;
-  border: 0;
-  }
-
-.container-fluid {
-  width: 100vw
-}
-
-.h2, h2 {
-  text-align: center;
-}
+} */
