@@ -128,21 +128,16 @@ body {
 }
 
 
-/*.parallax {
-   The image used
-  background-image: url("/assets/img/Breda5.jpg");
-
-  /* Set a specific height 
-  height: 300px;
-  width: 100vw; 
-
-  /* Create the parallax scrolling effect 
-    /* background-attachment: fixed; Not for mobile
+.parallax {
+  background-image: url("https://blog-admin.zoover.cloud/wp-content/uploads/2018/04/Overview-Breda.jpg");
+  height: 500px;
+  width: 100%; 
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   
-} */
+} 
 
 p {
 margin-bottom: 0;  
