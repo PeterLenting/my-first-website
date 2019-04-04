@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+#landing-view {
+    background-attachment: fixed;
+    background-image: url(/assets/img/logo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 0px;
+    z-index: 1;
+}
+
 body {
   font-family: 'Nobile', sans-serif !important;
 }
@@ -10,15 +23,29 @@ body {
 
 .btn {
   font-weight: 600;
+  border: 0px;
 }
 
-.btn-group {
-  display: inline;
-  padding-right: 5px;
+a {
+  color: #FFF;
 }
 
-.icons {
-  padding: 5px;
+.top-buffer { 
+  margin-top:20px; 
+  background-color: #343a40;
+}
+
+.dropdown-menu {
+  padding: 0!important;
+}
+
+.dropdown-toggle {
+  float: left!important;
+}
+
+.dropdown {
+  padding-right: 20px;
+  padding-left: 0px!important;
 }
 
 .jumbotron{
@@ -26,47 +53,55 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin-bottom: 0;
+	height: 300px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 10px;
+} 
+
+.jumbotron-tablet {
+	background-image: url('/assets/img/kasteelplein.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 0;
 	height: 224px;
 } 
 
 .btn-secondary {
-  background-color:#FFF; 
-  border-color:#4887CE;
-  color:#4887CE;
+  border-color:#FFF;
+  color:#FFF;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
 .head {
   padding: 5px;
+  border-radius: 25px;
 }
 
 .dropdown-toggle {
  float: right;
 }
 
-.body, .html {
-  height: 100%;
-  padding: 0;
- }
- 
 .row {
   color: #424141;
   border: 0;
   }
   
-  .carousel-caption {
+.carousel-caption {
   color: #fff;
-  background: rgba(0, 0, 0, 0.50);
   right: 1%;
   left: 1%;
   padding-top: 0;
   padding-bottom: 0;
   bottom: 1%;
   width: 98%;
-  border: solid 1px #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: solid 1px #fff; 
+  border-radius: 5px;
 }
   
 .head13 {
-  background-color: /*rgb(218, 41, 28);*/ #e9ecef;
   width: 100%;
   border: 0;
   text-align: center;
@@ -74,13 +109,6 @@ body {
   padding-top: 5px !important;
   }
   
-.head24 {
-  background-color: /*rgb(218, 41, 28);*/ #adb5bd;
-  width: 100%;
-  border: 0;
-  text-align: center;
-  }
-
 .content13 {
   background-color: /*rgb(255, 196, 0);*/ #e9ecef;
   width: 100%;
@@ -93,18 +121,6 @@ body {
   width: 100%;
   border: 0;
   padding: 0;
-}  
-
-  .underline {
-  border-bottom: 3px solid;
-}
-
-.bg-lightgray {
-  background-color: #e9ecef;
-}
-
-.bg-darkgray {
-  background-color: #adb5bd;
 }
 
 .col-4 {
@@ -121,6 +137,7 @@ body {
   padding: 0px;
   padding-right: 0px;
   padding-left: 0px;
+  
 }
 
 .row-12 {
@@ -130,7 +147,6 @@ body {
 
 .parallax {
   background-image: url("https://blog-admin.zoover.cloud/wp-content/uploads/2018/04/Overview-Breda.jpg");
-  height: 500px;
   width: 100%; 
   background-attachment: fixed;
   background-position: center;
@@ -147,12 +163,9 @@ margin-bottom: 0;
 
 .pagetext {
   background-color: #343a40;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: #FFF;
-}
+  color: #fff;
+  padding: 5px;
+  }
 
 .pagehead {
   background-color: #FFF;
@@ -163,7 +176,6 @@ margin-bottom: 0;
   background-color: #343a40;
   width: 100%;
   border: 0;
-  text-align: center;
   padding-bottom: 5px !important;
   padding-top: 5px !important;
   }
@@ -173,7 +185,67 @@ margin-bottom: 0;
   color: #FFF;
 }
 
-.top-buffer { 
-  margin-top:20px; 
-  background-color: #343a40;
+
+/* ----------------------------------------Contact Form */
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #4887CE;
+    border: 0px;
+}
+
+/* ----------------------------------------Footer */
+
+.footer-color {
+  background-color: #868e96;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.padding-fa {
+  padding: 10px;
+}
+
+/* ----------------------------------------Media Queries */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
+
+a:hover {
+  color: #C60B1E;
+}
+
+a:link {
+  color: #4887CE;
+}
+
+.no-padding {
+  padding: 0px!important;
+}
+
+.fab {
+    text-shadow: 2px 2px #080808;
+    background-color: transparent;
 }
