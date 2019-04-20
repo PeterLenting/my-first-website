@@ -1,18 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-#landing-view {
-    background-attachment: fixed;
-    background-image: url(assets/img/logo.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    margin-bottom: 0px;
-    z-index: 1;
-}
-
 body {
   font-family: 'Nobile', sans-serif !important;
 }
@@ -37,6 +24,7 @@ a {
 
 .dropdown-menu {
   padding: 0!important;
+  margin: 0;
 }
 
 .dropdown-toggle {
@@ -48,30 +36,49 @@ a {
   padding-left: 0px!important;
 }
 
-.jumbotron{
-	background-image: url('/assets/img/logo.jpg');
+.jumbotron {
+	background-image: url('/assets/img/banner22.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin-bottom: 0;
-	height: 300px;
+	height: 350px;
 	padding-left: 5px;
 	padding-right: 5px;
 	padding-top: 10px;
 } 
 
-.jumbotron-tablet {
-	background-image: url('/assets/img/kasteelplein.jpg');
+.jumbotron-mobile {
+	background-image: url('/assets/img/banner-mobiel.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin-bottom: 0;
-	height: 224px;
+	height: 200px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 0px;
 } 
+
+.jumbotron-tablet {
+	background-image: url('/assets/img/banner-mobiel.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 0;
+	height: 361px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 0px;
+}
+
+#mobile {
+  padding: 0px; 
+}
 
 .btn-secondary {
   border-color:#FFF;
   color:#FFF;
   padding-top: 3px;
   padding-bottom: 3px;
+  background-color: #424141!important;
 }
 
 .head {
@@ -85,8 +92,16 @@ a {
 
 .row {
   color: #424141;
-  border: 0;
+  margin-right: 0px;
   }
+ 
+.no-margin-left { 
+   margin-left: 0px;
+   }
+  
+.padding-right {
+  margin-right: -15px!important;
+}
   
 .carousel-caption {
   color: #fff;
@@ -94,8 +109,21 @@ a {
   left: 3%;
   padding-top: 0;
   padding-bottom: 0;
-  bottom: 1%;
+  bottom: 4%;
   width: 94%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: solid 1px #fff; 
+  border-radius: 5px;
+}
+
+.desktop {
+  color: #fff;
+  right: 1%;
+  left: 5%;
+  padding-top: 0;
+  padding-bottom: 0;
+  bottom: 2%;
+  width: 90%;
   background-color: rgba(0, 0, 0, 0.5);
   border: solid 1px #fff; 
   border-radius: 5px;
@@ -105,9 +133,9 @@ a {
   width: 100%;
   border: 0;
   text-align: center;
-  padding-bottom: 15px !important;
-  padding-top: 5px !important;
-  }
+  padding-bottom: 0px !important;
+  padding-top: 15px !important;
+}
   
 .content13 {
   background-color: /*rgb(255, 196, 0);*/ #e9ecef;
@@ -147,16 +175,6 @@ a {
 }
 
 
-.parallax {
-  background-image: url("https://blog-admin.zoover.cloud/wp-content/uploads/2018/04/Overview-Breda.jpg");
-  width: 100%; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-} 
-
 p {
 margin-bottom: 0;  
 }
@@ -166,12 +184,28 @@ margin-bottom: 0;
 .pagetext {
   background-color: #343a40;
   color: #fff;
+  padding-top: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  }
+  
+  .pagetextbody {
+  background-color: #343a40;
+  color: #fff;
   padding: 5px;
   }
 
 .pagehead {
   background-color: #FFF;
   color: #343a40;
+  margin-bottom: 0px;
+}
+
+.pagehead-mobile {
+  background-color: #FFF;
+  color: #343a40;
+  margin-bottom: 0px;
 }
 
 .head13page {
@@ -215,9 +249,9 @@ button[type="submit"] {
 /* ----------------------------------------Footer */
 
 .footer-color {
-  background-color: #868e96;
   padding: 5px;
-  margin-top: 5px;
+  border-top: solid #fff 3px;
+  margin-top: -1px;
 }
 
 .padding-fa {
@@ -226,20 +260,23 @@ button[type="submit"] {
 
 /* ----------------------------------------Media Queries */
 
-@media(min-width: 992px) {
+@media(min-width: 992px) and (max-width: 1050px) {
     .center-form {
-        padding-top: 30px;
-        min-height: 240px;
+        padding-top: 80px;
+        padding-bottom: 267px;
         margin: 0 auto;
         max-width: 50%;
     }
 }
 
 a:hover {
-  color: #C60B1E;
+  color: #ffffb3;
 }
 
-
+.active { 
+  background-color: #ffc4006e!important;
+  color: black!important;
+}
 
 .no-padding {
   padding: 0px!important;
@@ -250,9 +287,7 @@ a:hover {
     background-color: transparent;
 }
 
-.container-fluid {
-  padding: 0px;
-}
+
 
 .dropdown:hover>.dropdown-menu {
   display: block;
@@ -260,4 +295,90 @@ a:hover {
 
 h4 {
   padding-top: 5px;
+}
+
+
+.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+    }
+    
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  }
+  
+.col-lg-8 {
+   border-right: solid 3px #fff;
+  }
+  
+  .bg-yellow {
+  background-color: #ffc4006e;
+  }
+  
+  .col-xl-8 {
+    padding: 0px;
+  }
+  
+  .mobile-border {
+    border: solid 5px #FFF;
+  }
+  
+  .container-fluid {
+    padding-top: 15px;
+  }
+
+ .col-lg-4 {
+  padding-right: 0px
+}
+
+.header-spacing {
+  padding-top: 10px;
+}
+
+.padding {
+padding-top: 15px; 
+padding-bottom: 15px;
+}
+
+#padding {
+  padding-right: 0px;
+}
+
+#padding-bottom {
+  padding-bottom: 15px;
+}
+
+#no-margin {
+  margin: 0px;
+}
+
+#button-color {
+  background-color: #ffffb3!important;
+   color: #343a40!important;
+}
+
+.padding-form {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+#padding-line {
+  padding-right: 0px;
+  border-top: #fff solid 3px;
+}
+
+#no-toppadding {
+  padding-top: 0px;
+}
+
+
+#tab-1:hover {
+  color: #000000;
+  text-decoration: none;
 }
