@@ -4,17 +4,23 @@ body {
   font-family: 'Nobile', sans-serif !important;
 }
 
+.container-fluid {
+    padding-top: 15px;
+  }
+
+/* ----------------------------------------header */
+
 .header {
   margin: 0;
+}
+
+.header-spacing {
+  padding-top: 10px;
 }
 
 .btn {
   font-weight: 600;
   border: 0px;
-}
-
-a {
-  color: #FFF;
 }
 
 .top-buffer { 
@@ -36,9 +42,13 @@ a {
   padding-left: 0px!important;
 }
 
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
 .jumbotron {
 	background-image: url('/assets/img/banner22.jpg');
-	background-size: cover;
+	background-size: cover; 
 	background-repeat: no-repeat;
 	margin-bottom: 0;
 	height: 350px;
@@ -67,10 +77,6 @@ a {
 	padding-left: 5px;
 	padding-right: 5px;
 	padding-top: 0px;
-}
-
-#mobile {
-  padding: 0px; 
 }
 
 .btn-secondary {
@@ -174,12 +180,11 @@ a {
   padding: 0;
 }
 
+/* ----------------------------------------Pages */
 
 p {
 margin-bottom: 0;  
 }
-
-
 
 .pagetext {
   background-color: #343a40;
@@ -190,7 +195,7 @@ margin-bottom: 0;
   padding-bottom: 5px;
   }
   
-  .pagetextbody {
+.pagetextbody {
   background-color: #343a40;
   color: #fff;
   padding: 5px;
@@ -246,6 +251,11 @@ button[type="submit"] {
     border: 0px;
 }
 
+.padding-form {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
 /* ----------------------------------------Footer */
 
 .footer-color {
@@ -258,23 +268,18 @@ button[type="submit"] {
   padding: 10px;
 }
 
-/* ----------------------------------------Media Queries */
+/* ----------------------------------------Links */
 
-@media(min-width: 992px) and (max-width: 1050px) {
-    .center-form {
-        padding-top: 80px;
-        padding-bottom: 267px;
-        margin: 0 auto;
-        max-width: 50%;
-    }
+a {
+  color: #FFF;
 }
-
 a:hover {
   color: #ffffb3;
+  transition: 0.5s ease-in-out;
 }
 
 .active { 
-  background-color: #ffc4006e!important;
+  background-color: #ffffe6!important;
   color: black!important;
 }
 
@@ -288,16 +293,7 @@ a:hover {
 }
 
 
-
-.dropdown:hover>.dropdown-menu {
-  display: block;
-}
-
-h4 {
-  padding-top: 5px;
-}
-
-
+/* ----------------------------------------Google maps */
 .google-maps {
   position: relative;
   padding-bottom: 75%;
@@ -312,38 +308,42 @@ h4 {
   width: 100% !important;
   height: 100% !important;
   }
+
+/* ----------------------------------------General layout */  
   
+h4 {
+  padding-top: 5px;
+}
+
 .col-lg-8 {
    border-right: solid 3px #fff;
   }
   
-  .bg-yellow {
-  background-color: #ffc4006e;
+.bg-yellow {
+  background-color: #ffffe6;
   }
   
-  .col-xl-8 {
+.col-xl-8 {
     padding: 0px;
   }
   
-  .mobile-border {
+.mobile-border {
     border: solid 5px #FFF;
   }
   
-  .container-fluid {
-    padding-top: 15px;
-  }
-
- .col-lg-4 {
+.col-lg-4 {
   padding-right: 0px
-}
-
-.header-spacing {
-  padding-top: 10px;
 }
 
 .padding {
 padding-top: 15px; 
 padding-bottom: 15px;
+}
+
+/* ----------------------------------------ID's */
+
+#mobile {
+  padding: 0px; 
 }
 
 #padding {
@@ -363,11 +363,6 @@ padding-bottom: 15px;
    color: #343a40!important;
 }
 
-.padding-form {
-  padding-top: 30px;
-  padding-bottom: 50px;
-}
-
 #padding-line {
   padding-right: 0px;
   border-top: #fff solid 3px;
@@ -381,4 +376,15 @@ padding-bottom: 15px;
 #tab-1:hover {
   color: #000000;
   text-decoration: none;
+}
+
+/* ----------------------------------------Media Queries */
+
+@media(min-width: 992px) and (max-width: 1050px) {
+    .center-form {
+        padding-top: 80px;
+        padding-bottom: 267px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
