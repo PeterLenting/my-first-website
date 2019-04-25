@@ -20,12 +20,12 @@ The navigation is functional and there is one form (for those who want to volunt
 The links to Facebook, Instagram, Youtube and Twitter are links to the official pages of ‘La Vuelta Holanda’. La Vuelta will be in Holland for three days, starting in Utrecht, going to Den Bosch on the second day and Breda on the third. 
 
 ## Features
-* The body of the Index-page basically consists of the four links to the four articles. All links are build with a header, a photo and a short text. 
-* The body of the Contact-page consists of a form to sign up as a volunteer for La Vuelta in Breda. 
-* The body of the La Vuelta 2020-page consists of information about La Vuelta in 2020 and some history. In the sidebar on the right there are three links to the other articles.
-* The body of the Parcours-page consists of information about the route of the stage that starts and finishes in Breda. This includes a small map and a video that shows the route. In the sidebar on the right there are three links to the other articles.
-* The body of the Wat kun je nog meer doen in Breda?-page consists of information about the tourist-attractions in Breda. In the sidebar on the right there are three links to the other articles.
-* The body of the Hoe kom je in Breda?-page consists of information about three ways to get to Breda: by train, by car and by bike. There is an embedded Google-map of Breda. In the sidebar on the right there are three links to the other articles.
+* The body of the 'Index'-page basically consists of the four links to the four articles. All links are build with a header, a photo and a short text. 
+* The body of the 'Contact'-page consists of a form to sign up as a volunteer for La Vuelta in Breda. 
+* The body of the 'La Vuelta 2020'-page consists of information about La Vuelta in 2020 and some history. In the sidebar on the right there are three links to the other articles.
+* The body of the 'Parcours'-page consists of information about the route of the stage that starts and finishes in Breda. This includes a small map and a video that shows the route. In the sidebar on the right there are three links to the other articles.
+* The body of the 'Wat kun je nog meer doen in Breda?'-page consists of information about the tourist-attractions in Breda. In the sidebar on the right there are three links to the other articles.
+* The body of the 'Hoe kom je in Breda?'-page consists of information about three ways to get to Breda: by train, by car and by bike. There is an embedded Google-map of Breda. In the sidebar on the right there are three links to the other articles.
 
 ## Features Left to Implement
 
