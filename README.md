@@ -70,9 +70,10 @@ I made wireframes, but after building the site, I didn’t like it. It looked a 
 I used Bootstrap to help make the Grid System, the Dropdownmenu, the Form and the Carousel-caption. Futhermore I googled a lot and found a lot of information on w3schools. The other code I wrote myself.
 **Content**
 Th text on this website was written by me. 
-** Media**
+**Media**
 * All photos were taken by me, except for two pictures on 'La Vuelta 2020' named 'renners' and 'lavueltasagen'. They are provided by the Vuelta-organisation
 * The video and the map of the route are provided by the Vuelta-organisation.
 * The embedded map is made by Google Maps.
+* The source of the Favicon is: https://ui-ex.com/explore/drawing-bike-cyclist/.
 
 
