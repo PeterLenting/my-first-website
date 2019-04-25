@@ -80,8 +80,8 @@ body {
 }
 
 .btn-secondary {
-  border-color:#FFF;
-  color:#FFF;
+  border-color:#f2f2f2;
+  color:#f2f2f2;
   padding-top: 3px;
   padding-bottom: 3px;
   background-color: #424141!important;
@@ -110,7 +110,7 @@ body {
 }
   
 .carousel-caption {
-  color: #fff;
+  color: #f2f2f2;
   right: 1%;
   left: 3%;
   padding-top: 0;
@@ -118,12 +118,12 @@ body {
   bottom: 4%;
   width: 94%;
   background-color: rgba(0, 0, 0, 0.5);
-  border: solid 1px #fff; 
+  border: solid 1px #f2f2f2; 
   border-radius: 5px;
 }
 
 .desktop {
-  color: #fff;
+  color: #f2f2f2;
   right: 1%;
   left: 5%;
   padding-top: 0;
@@ -131,7 +131,7 @@ body {
   bottom: 2%;
   width: 90%;
   background-color: rgba(0, 0, 0, 0.5);
-  border: solid 1px #fff; 
+  border: solid 1px #f2f2f2; 
   border-radius: 5px;
 }
   
@@ -188,7 +188,7 @@ margin-bottom: 0;
 
 .pagetext {
   background-color: #343a40;
-  color: #fff;
+  color: #f2f2f2;
   padding-top: 0px;
   padding-left: 5px;
   padding-right: 5px;
@@ -197,18 +197,18 @@ margin-bottom: 0;
   
 .pagetextbody {
   background-color: #343a40;
-  color: #fff;
+  color: #f2f2f2;
   padding: 5px;
   }
 
 .pagehead {
-  background-color: #FFF;
+  background-color: #f2f2f2;
   color: #343a40;
   margin-bottom: 0px;
 }
 
 .pagehead-mobile {
-  background-color: #FFF;
+  background-color: #f2f2f2;
   color: #343a40;
   margin-bottom: 0px;
 }
@@ -223,7 +223,7 @@ margin-bottom: 0;
   
 .pagehead1 {
   background-color: #343a40;
-  color: #FFF;
+  color: #f2f2f2;
 }
 
 
@@ -234,7 +234,7 @@ margin-bottom: 0;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
-    color: #fff;
+    color: #f2f2f2;
 }
 
 .center-form {
@@ -246,7 +246,7 @@ margin-bottom: 0;
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    color: #fff;
+    color: #f2f2f2;
     background-color: #4887CE;
     border: 0px;
 }
@@ -260,18 +260,21 @@ button[type="submit"] {
 
 .footer-color {
   padding: 5px;
-  border-top: solid #fff 3px;
+  border-top: solid #f2f2f2 3px;
   margin-top: -1px;
 }
 
 .padding-fa {
-  padding: 10px;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* ----------------------------------------Links */
 
 a {
-  color: #FFF;
+  color: #f2f2f2;
 }
 a:hover {
   color: #ffffb3;
@@ -279,7 +282,7 @@ a:hover {
 }
 
 .active { 
-  background-color: #ffffe6!important;
+  background-color: #ffffb3!important;
   color: black!important;
 }
 
@@ -316,11 +319,11 @@ h4 {
 }
 
 .col-lg-8 {
-   border-right: solid 3px #fff;
+   border-right: solid 3px #f2f2f2;
   }
   
 .bg-yellow {
-  background-color: #ffffe6;
+  background-color: #f2f2f2;
   }
   
 .col-xl-8 {
@@ -328,7 +331,7 @@ h4 {
   }
   
 .mobile-border {
-    border: solid 5px #FFF;
+    border: solid 5px #f2f2f2;
   }
   
 .col-lg-4 {
@@ -338,6 +341,10 @@ h4 {
 .padding {
 padding-top: 15px; 
 padding-bottom: 15px;
+}
+
+.image-spacing {
+padding-bottom: 5px; 
 }
 
 /* ----------------------------------------ID's */
@@ -359,13 +366,13 @@ padding-bottom: 15px;
 }
 
 #button-color {
-  background-color: #ffffb3!important;
+  background-color: #f2f2f2fb3!important;
    color: #343a40!important;
 }
 
 #padding-line {
   padding-right: 0px;
-  border-top: #fff solid 3px;
+  border-top: #f2f2f2 solid 3px;
 }
 
 #no-toppadding {
