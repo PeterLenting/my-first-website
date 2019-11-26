@@ -113,7 +113,7 @@ h3 {
 }
 */
 
- .header a:hover {
+ a:hover {
     text-decoration: none;
  }
 
@@ -319,10 +319,12 @@ button[type="submit"] {
 a {
   color: #f2f2f2;
 }
-a:hover {
+
+/*a:hover {
   color: #ffffb3;
   transition: 0.5s ease-in-out;
 }
+*/
 
 .active { 
   background-color: #ffffb3!important;
