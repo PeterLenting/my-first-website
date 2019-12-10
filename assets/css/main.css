@@ -18,7 +18,7 @@ body {
 
 .btn {
   font-weight: 600;
-  border: 0px;
+  border: 0;
 }
 
 .btn-secondary a {
@@ -41,7 +41,7 @@ body {
 
 .dropdown {
   padding-right: 20px;
-  padding-left: 0px!important;
+  padding-left: 0!important;
 }
 
 .dropdown:hover>.dropdown-menu {
@@ -145,7 +145,7 @@ h3 {
   }
  
 .no-margin-left { 
-   margin-left: 0px;
+   margin-left: 0;
    }
   
 .padding-right {
@@ -182,7 +182,7 @@ h3 {
   width: 100%;
   border: 0;
   text-align: center;
-  padding-bottom: 0px !important;
+  padding-bottom: 0 !important;
   padding-top: 15px !important;
 }
   
@@ -201,8 +201,8 @@ h3 {
 }
 
 .col-4 {
-  padding-left: 0px !important;
-  padding-right: 0px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }  
 
 .col-8 {
@@ -211,7 +211,7 @@ h3 {
 }  
 
 .col, .col-12 {
-  padding: 0px;
+  padding: 0;
 }
 
 .col-md-6 {
@@ -232,7 +232,7 @@ margin-bottom: 0;
 .pagetext {
   background-color: #343a40;
   color: #f2f2f2;
-  padding-top: 0px;
+  padding-top: 0;
   padding-left: 5px;
   padding-right: 5px;
   padding-bottom: 5px;
@@ -247,13 +247,13 @@ margin-bottom: 0;
 .pagehead {
   background-color: #f2f2f2;
   color: #343a40;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .pagehead-mobile {
   background-color: #f2f2f2;
   color: #343a40;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .head13page {
@@ -291,7 +291,7 @@ button[type="submit"] {
     margin-bottom: 20px;
     color: #f2f2f2;
     background-color: #4887CE;
-    border: 0px;
+    border: 0;
 }
 
 .padding-form {
@@ -332,7 +332,7 @@ a {
 }
 
 .no-padding {
-  padding: 0px!important;
+  padding: 0 !important;
 }
 
 .fab {
@@ -372,7 +372,7 @@ h4 {
   }
   
 .col-xl-8 {
-    padding: 0px;
+    padding: 0;
   }
   
 .mobile-border {
@@ -380,7 +380,7 @@ h4 {
   }
   
 .col-lg-4 {
-  padding-right: 0px
+  padding-right: 0;
 }
 
 .padding {
@@ -395,11 +395,11 @@ padding-bottom: 5px;
 /* ----------------------------------------ID's */
 
 #mobile {
-  padding: 0px; 
+  padding: 0; 
 }
 
 #padding {
-  padding-right: 0px;
+  padding-right: 0;
 }
 
 #padding-bottom {
@@ -407,7 +407,7 @@ padding-bottom: 5px;
 }
 
 #no-margin {
-  margin: 0px;
+  margin: 0;
 }
 
 #button-color {
@@ -416,12 +416,12 @@ padding-bottom: 5px;
 }
 
 #padding-line {
-  padding-right: 0px;
+  padding-right: 0;
   border-top: #f2f2f2 solid 3px;
 }
 
 #no-toppadding {
-  padding-top: 0px;
+  padding-top: 0;
 }
 
 
