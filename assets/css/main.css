@@ -11,14 +11,14 @@ body {
 
 header {
   margin: 0;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 5px;
+  padding-right: 5px;
   background-color: #343a40;
 }
 
-.header-spacing {
+/*.header-spacing {
   padding-top: 10px;
-}
+}*/
 
 .btn {
   font-weight: 600;
@@ -70,24 +70,40 @@ header {
   text-align: center;
 }
 
-#black-letters {
+/*#black-letters {
   color: black;
   padding-left: 5px;
   background-color: #f2f2f2;
-}
+}*/
 
 .navbar-nam {
   background-color: #f2f2f2;
 }
 
 h3 {
-  line-height: 1.5;
   font-size: 1.5rem;
+  line-height: 1.5;
+  background-color: #f2f2f2;
+  color: #343a40;
+  margin-bottom: 0;
+  border-radius: 5px;
+  text-align: center;
 }
 
 h2 {
   font-size: 1.7rem;    
   line-height: 1.5;
+  background-color: #f2f2f2;
+  color: #343a40;
+  margin-bottom: 0;
+  border-radius: 5px;
+  text-align: center;
+}
+
+h5 {
+  text-align: center;   
+  margin-left: 5px;
+  margin-right: 5px; 
 }
 /*
 .jumbotron {
@@ -246,26 +262,27 @@ margin-bottom: 0;
 }
 
 .pagetext {
-  background-color: #343a40;
+  /*background-color: #343a40;*/
   color: #f2f2f2;
   padding-top: 0;
   padding-left: 5px;
   padding-right: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
 }
   
 .pagetextbody {
-  background-color: #343a40;
+  /*background-color: #343a40;*/
   color: #f2f2f2;
   padding: 5px;
 }
 
-.pagehead {
+/*.pagehead {
   background-color: #f2f2f2;
   color: #343a40;
   margin-bottom: 0;
   border-radius: 5px;
-}
+  text-align: center;
+}*/
 
 .index-header {
   background-color: #f2f2f2;
@@ -290,11 +307,10 @@ margin-bottom: 0;
 /* ----------------------------------------Contact Form */
 
 .contact-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    color: #f2f2f2;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .center-form {
@@ -313,7 +329,6 @@ button[type="submit"] {
 
 .padding-form {
   padding-top: 30px;
-  padding-bottom: 50px;
 }
 
 .mobile-padding {
@@ -323,10 +338,11 @@ button[type="submit"] {
 
 /* ----------------------------------------Footer */
 
-.footer-color {
+footer {
   padding: 5px;
   border-top: solid #f2f2f2 3px;
   margin-top: -1px;
+  text-align: center;
 }
 
 .padding-fa {
@@ -348,9 +364,15 @@ a {
 }
 */
 
+.navbar-dark .navbar-nav .nav-item .nav-link {
+  color: #343a40;
+  background-color: #f2f2f2; 
+  padding-left: 5px;   
+}
+
 .active { 
   background-color: #ffffb3!important;
-  color: black!important;
+  color: #343a40!important;
 }
 
 .no-padding {
@@ -382,11 +404,18 @@ a {
 /* ----------------------------------------General layout */  
   
 h4 {
-  padding-top: 5px;
+  padding-top: 10px;
+  color: white;
+  text-align: center;
 }
   
 .bg-yellow {
   background-color: #f2f2f2;
+}
+
+.bg-dark {
+    padding-right: 0;
+    padding-left: 0;
 }
   
 .col-xl-8 {
@@ -416,10 +445,15 @@ padding-bottom: 5px;
   padding: 0; 
 }
 
-#padding {
+#side-padding-main {
+  padding-left: 5px;
+  padding-right: 5px;    
+}
+
+/*#padding {
   padding-right: 0;
   padding-left: 0;
-}
+}*/
 
 #padding-bottom {
   padding-bottom: 15px;
@@ -440,7 +474,7 @@ padding-bottom: 5px;
   border-top: #f2f2f2 solid 3px;
 }
 
-#no-toppadding {
+/*#no-toppadding {
   padding-top: 0!important;
 }
 
@@ -448,7 +482,7 @@ padding-bottom: 5px;
   padding-top: 0!important;
   padding-left: 0!important;
   padding-right: 0!important;
-}
+}*/
 
 #tab-1:hover {
   color: #000000;
@@ -460,7 +494,7 @@ padding-bottom: 5px;
 @media(min-width: 992px) and (max-width: 1050px) {
 .center-form {
   padding-top: 80px;
-  padding-bottom: 267px;
+  padding-bottom: 250px;
   margin: 0 auto;
   max-width: 50%;
   }
@@ -472,6 +506,10 @@ padding-bottom: 5px;
   padding-left: 15px;
   padding-right: 15px;
   }
+#side-padding-main {
+  padding-left: 0;
+  padding-right: 0;    
+}
 .white-bottomborder {
   border-bottom: solid 0px #f2f2f2!important;     
   }
@@ -498,6 +536,9 @@ header {
   padding-left: 0;
   padding-right: 0; 
   }
+h2 {
+  font-size: 2.2rem;    
+  }
 h3 {
   font-size: 1.75rem;
   }
@@ -514,18 +555,19 @@ h3 {
   padding-right: 30px;
   }
 .col-md-6 {
- padding-right: 15px;
- padding-left: 15px; 
- }
+  padding-right: 15px;
+  padding-left: 15px; 
+  }
+.contact-heading {
+  margin-left: 15px;
+  margin-right: 15px;  
+  }
 }
 
 @media(min-width: 768px) and (max-width: 992px){
 .tablet-width {
   padding-left: 2px;
   padding-right: 2px;
-  }
-h2 {
-  font-size: 2rem;    
   }
 #no-toppadding2 {
   padding-top: 15px!important;
@@ -546,14 +588,15 @@ h2 {
  padding-right: 15px;
  padding-left: 15px; 
  }
+.center-form {
+  max-width: 70%;    
+  padding-bottom: 50px;
+  } 
 }
 
 @media(min-width: 768px){
 .mobile-padding {
   padding-left: 0;
   padding-right: 0;    
-  }
-.center-form {
-  max-width: 70%;    
-  }  
+  } 
 }
