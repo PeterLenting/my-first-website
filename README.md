@@ -6,7 +6,9 @@ The website fulfils the need for fans and potential visitors to find information
 It shows the way people can come to Breda (train, car, bike), where the start and finish of the stage is, what route it will follow and there is some background information about tourist attractions in Breda and a bit of history about La Vuelta. This all is visually supported with photos and a video.
 The website should be easy in use. I visit races myself and it’s always quite a struggle to find all the information I would like. This site will provide it all within a  few clicks.
 
-## 2User Stories
+![Responsive site](https://raw.githubusercontent.com/PeterLenting/my-first-website/master/assets/img/AmIResponsive.JPG)
+
+## User Stories
 
 * Someone from Groningen would like to know how to come to Breda by train and can find that information by going to the ‘Hoe kom je in Breda?’ (How to get to Breda) page.
 * Someone from Rotterdam would like to know what to do in Breda besides watching La Vuelta and finds what he is looking for on the ‘Breda biedt meer’ (Breda offers more) page.
@@ -15,8 +17,8 @@ The website should be easy in use. I visit races myself and it’s always quite 
 
 ## Functionality 
 
-The website is fully responsive, on desktop and larger screen sizes the header-photo is different from mobile and tablet and there are extra links to social media in the header.
-The navigation is functional and there is one form (for those who want to volunteer during the race) thankyou page. These forms are not fully functional in that they don't alert anyone from the Webteam that a form has being filled nor do they fill a database. 
+The website is fully responsive, on desktop and larger screen sizes the header-photo is different from mobile and tablet.
+The navigation is functional and there is one form (for those who want to volunteer during the race). This form is not fully functional in that it doesn't alert anyone from the Webteam that a form has being filled nor das it fill a database. 
 The links to Facebook, Instagram, Youtube and Twitter are links to the official pages of ‘La Vuelta Holanda’. La Vuelta will be in Holland for three days, starting in Utrecht, going to Den Bosch on the second day and Breda on the third. 
 
 ## Features
@@ -33,7 +35,7 @@ The links to Facebook, Instagram, Youtube and Twitter are links to the official 
 * Startlist – Not all the information about the Vuelta in 2020 is public yet. Over the next period more will be known about the route and the teams starting. When made public there will be a complete and easy to use/print startlist on the site. 
 * Experience – It would be nice to add a few video’s with people telling what they like about Breda. 
 * ‘Best places to watch’ - Once the route is more detailed I would to add ‘Best places to watch’. Places along the route where the riders will pass more than once, places where it’s easy to park your car close to the route and even make a route that makes it possible to see the riders pass on as many locations as possible. 
-* English version – Since the Vuelta will also attract  people from outside Holland, it would be better to also have an English version.
+* English version – Since the Vuelta will also attract people from outside of Holland, it would be better to also have an English version.
 
 ## Technologies Used
 
